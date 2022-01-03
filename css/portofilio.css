@@ -1,0 +1,322 @@
+body
+{
+  overflow-x: hidden;
+  background-color: #1d202a;
+}
+html {
+  scroll-behavior: smooth;
+}
+.home .navbar-nav {
+  margin-right: 4%;
+}
+.home .navbar-nav li {
+  margin-left: 30px;
+}
+.home .navbar-nav li i {
+  margin-top: 13px;
+}
+.home img
+{
+    width: 8%;
+}
+.navbar-nav .nav-item a
+{
+    border-bottom: 3px solid transparent;
+    color: black !important;
+    font-size: 18px;
+}
+.navbar-nav .nav-item a:hover
+{
+color: #f58533 !important;
+border-bottom: #f58533 3px solid;
+transition: 0.25s;
+}
+.home ul li .special
+{
+  color: #f58533 !important;
+}
+.portfolio
+{
+  background-image: url(../images/ratecard-bg.jpg);
+  padding: 100px;
+}
+.portfolio h1
+{
+  color: #f58533;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+.tabs
+{
+  background-color: #1d202a;
+  padding: 50px;
+}
+.tabs ul 
+{
+  margin-left: 40%;
+}
+.tabs ul li a
+{
+  color: #fff !important;
+  font-size: 18px;
+}
+.tabs .nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover
+{
+  border: none;
+ 
+}
+.tabs  .nav-tabs .nav-link.active
+{
+  background: none;
+  border: none;
+  border-bottom: 2px solid #f58533;
+}
+.tabs .nav-tabs
+{
+  border: none;
+}
+.tabs .item
+{
+  background: rgba(63,71,92,.49);
+  color: #fff;
+  margin-bottom: 15px;
+}
+.item2
+{
+  position: relative;
+}
+.tabs .layer
+{
+  background-color: rgba(0,0,0,.2);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+}
+.tabs .layer i
+{
+  margin-left: 90% !important;
+  margin-top: 10px;
+  font-size: 25px;
+}
+.tabs .item .layer:hover
+{
+  opacity: 1;
+  transition: 800ms;
+}
+.tabs .item:hover
+{
+  color: #f58533;
+  transition: 800ms;
+}
+.ads h4
+{
+  font-size: 18px;
+}
+.projects h4 
+{
+  font-size: 18px;
+}
+.mobileApps .item3
+{
+  background: rgba(63,71,92,.49);
+  color: #fff;
+  margin-bottom: 15px;
+}
+.item4
+{
+  position: relative;
+}
+.mobileApps .layer2
+{
+  background-color: rgba(0,0,0,.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+}
+.mobileApps .item3 .layer2:hover
+{
+  opacity: 1;
+  transition: 800ms;
+}
+.mobileApps .item3:hover
+{
+  color: #f58533;
+  transition: 800ms;
+}
+.mobileApps .layer2 .icon
+{
+  color: #fff !important;
+  font-size: 29px;
+  margin-left:35%;
+  margin-top: 25%;
+}
+.mobileApps .layer2 i
+{
+  margin-left: 20px;
+}
+.mobileApps  h4
+{
+  font-size: 18px;
+  margin-top: 10px;
+}
+.icons
+{
+  background-color: #1d212b;
+  padding: 30px;
+  border-top: 1px solid gray;
+}
+.icons i
+{
+  font-size: 20px;
+}
+.icons .face
+{
+  width: 35px;
+  height: 35px;
+  background-color: transparent;
+  text-align: center;
+  border-radius: 50%;
+}
+.icons .face i
+{
+  margin-top: 7px;
+}
+.icons .face:hover
+{
+  background-color: #3b5998;
+}
+
+.icons .twitter
+{
+  width: 35px;
+  height: 35px;
+  background-color: transparent;
+  text-align: center;
+  border-radius: 50%;
+}
+.icons .twitter i
+{
+  margin-top: 7px;
+}
+.icons .twitter:hover
+{
+  background-color: #50abf1;
+}
+.icons .youtube
+{
+  width: 35px;
+  height: 35px;
+  background-color: transparent;
+  text-align: center;
+  border-radius: 50%;
+}
+.icons .youtube i
+{
+  margin-top: 7px;
+}
+.icons .youtube:hover
+{
+  background-color: #f61c0d;
+}
+
+.icons .linked
+{
+  width: 35px;
+  height: 35px;
+  background-color: transparent;
+  text-align: center;
+  border-radius: 50%;
+}
+.icons .linked i
+{
+  margin-top: 7px;
+}
+.icons .linked:hover
+{
+  background-color: #0077b7;
+}
+@media screen and (max-width: 1100px) and (min-width: 767px) {
+  .tabs .layer i
+  {
+    margin-left: 80% !important;
+    margin-top: 5px;
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 766px) and (min-width: 320px) {
+  .tabs .layer i
+{
+  margin-left: 80% !important;
+  margin-top: 5px;
+  font-size: 25px;
+}
+}
+
+@media screen and (max-width: 1100px) and (min-width: 767px) {
+  .portfolio
+  {
+    padding: 20px;
+  }
+}
+@media screen and (max-width: 766px) and (min-width: 320px) {
+  .portfolio
+  {
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 1100px) and (min-width: 767px) {
+  .tabs
+{
+  padding: 30px;
+}
+}
+@media screen and (max-width: 766px) and (min-width: 320px) {
+  .tabs
+{
+  padding: 30px;
+}
+}
+
+@media screen and (max-width: 1100px) and (min-width: 767px) {
+  .tabs ul 
+  {
+    margin-left:auto;
+  }
+}
+@media screen and (max-width: 766px) and (min-width: 320px) {
+  .tabs ul 
+  {
+    margin-left: auto;
+  }
+}
+@media screen and (max-width: 1100px) and (min-width: 767px) {
+  .mobileApps .layer2 .icon
+  {
+    margin-left:25%;
+  }
+}
+@media screen and (max-width: 766px) and (min-width: 320px) {
+  .mobileApps .layer2 .icon
+  {
+    margin-left:25%;
+  }
+}
+@media screen and (max-width: 1100px) and (min-width: 767px) {
+  .home img
+{
+    width: 30%;
+}
+}
+@media screen and (max-width: 766px) and (min-width: 320px) {
+  .home img
+  {
+      width: 30%;
+  }
+}

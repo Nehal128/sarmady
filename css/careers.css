@@ -1,0 +1,236 @@
+body
+{
+  overflow-x: hidden;
+}
+html {
+  scroll-behavior: smooth;
+}
+.home .navbar-nav {
+  margin-right: 4%;
+}
+.home .navbar-nav li {
+  margin-left: 30px;
+}
+.home .navbar-nav li i {
+  margin-top: 13px;
+}
+.home img
+{
+    width: 8%;
+}
+.navbar-nav .nav-item a
+{
+    border-bottom: 3px solid transparent;
+    color: black !important;
+    font-size: 18px;
+}
+.navbar-nav .nav-item a:hover
+{
+color: #f58533 !important;
+border-bottom: #f58533 3px solid;
+transition: 0.25s;
+}
+.home ul li .special
+{
+  color: #f58533 !important;
+}
+.career
+{
+  background-image: url(../images/career-bg.jpg);
+  padding: 130px;
+  border-bottom: 1px solid #3e455c;
+}
+.career h1
+{
+  color: #f58533;
+  font-weight: 400;
+  margin-bottom: 30px;
+  font-size: 47px;
+}
+.career button a
+{
+  color: #fff;
+  padding: 10px 30px;
+}
+.career button
+{
+  background-color: transparent;
+  border: 2px solid #f58533;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+.career button:hover
+{
+  background-color: transparent;
+}
+.hvr-sweep-to-right:before
+{
+  content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0px;
+    right: 0;
+    bottom: 0;
+    background: #f58533;
+    transition: 800ms;
+    width: 100%;
+}
+.inqury p
+{
+  line-height: 1.8;
+    font-size: 18px;
+    color: #545454;
+}
+.inqury span
+{
+  color: #f58533;
+}
+.inqury h2
+{
+  font-size: 45px;
+  font-weight: 400;
+}
+.positions
+{
+  background-color: #f3f3f3;
+}
+.positions span
+{
+  color: #f58533;
+}
+.positions h2
+{
+  font-size: 43px;
+  font-weight: 400;
+}
+.positions .item2
+{
+  padding: 27px;
+}
+.positions .item .apply
+{
+  background-color: #ececec;
+}
+.positions .item
+{
+  position: relative;
+}
+.apply
+{
+  background-color: #ececec !important;
+  width: 100%;
+}
+.item2 h4
+{
+ font-size: 22px;
+}
+.item2 p
+{
+  color: #7f7f7f;
+}
+.positions .item:hover h4
+{
+  color: #f58533;
+  transition: 800ms;
+}
+.icons
+{
+  background-color: #1d212b;
+  padding: 30px;
+  border-top: 1px solid gray;
+}
+.icons i
+{
+  font-size: 20px;
+}
+.icons .face
+{
+  width: 35px;
+  height: 35px;
+  background-color: transparent;
+  text-align: center;
+  border-radius: 50%;
+}
+.icons .face i
+{
+  margin-top: 7px;
+}
+.icons .face:hover
+{
+  background-color: #3b5998;
+}
+
+.icons .twitter
+{
+  width: 35px;
+  height: 35px;
+  background-color: transparent;
+  text-align: center;
+  border-radius: 50%;
+}
+.icons .twitter i
+{
+  margin-top: 7px;
+}
+.icons .twitter:hover
+{
+  background-color: #50abf1;
+}
+.icons .youtube
+{
+  width: 35px;
+  height: 35px;
+  background-color: transparent;
+  text-align: center;
+  border-radius: 50%;
+}
+.icons .youtube i
+{
+  margin-top: 7px;
+}
+.icons .youtube:hover
+{
+  background-color: #f61c0d;
+}
+
+.icons .linked
+{
+  width: 35px;
+  height: 35px;
+  background-color: transparent;
+  text-align: center;
+  border-radius: 50%;
+}
+.icons .linked i
+{
+  margin-top: 7px;
+}
+.icons .linked:hover
+{
+  background-color: #0077b7;
+}
+@media screen and (max-width: 1100px) and (min-width: 767px) {
+  .career
+  {
+    padding: 20px;
+  }
+}
+@media screen and (max-width: 766px) and (min-width: 320px) {
+  .career
+  {
+    padding: 20px;
+  }
+}
+@media screen and (max-width: 1100px) and (min-width: 767px) {
+  .home img
+{
+    width: 30%;
+}
+}
+@media screen and (max-width: 766px) and (min-width: 320px) {
+  .home img
+  {
+      width: 30%;
+  }
+}

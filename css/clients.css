@@ -1,0 +1,158 @@
+body
+{
+  overflow-x: hidden;
+}
+html {
+  scroll-behavior: smooth;
+}
+.home .navbar-nav {
+  margin-right: 4%;
+}
+.home .navbar-nav li {
+  margin-left: 30px;
+}
+.home .navbar-nav li i {
+  margin-top: 13px;
+}
+.home img
+{
+    width: 8%;
+}
+.navbar-nav .nav-item a
+{
+    border-bottom: 3px solid transparent;
+    color: black !important;
+    font-size: 18px;
+}
+.navbar-nav .nav-item a:hover
+{
+color: #f58533 !important;
+border-bottom: #f58533 3px solid;
+transition: 0.25s;
+}
+.home ul li .special
+{
+  color: #f58533 !important;
+}
+.client
+{
+  background-image: url(../images/ratecard-bg.jpg);
+  padding: 130px;
+  border-bottom: 1px solid #3e455c;
+}
+.client h1
+{
+  color: #f58533;
+  font-weight: 400;
+  margin-bottom: 30px;
+  font-size: 47px;
+}
+.clients 
+{
+  background-color: #f6f6f6 !important;
+}
+.clients img
+{
+  /* box-shadow: 1px 1px 10px gray; */
+  margin-bottom: 15px !important;
+}
+.icons
+{
+  background-color: #1d212b;
+  padding: 30px;
+  border-top: 1px solid gray;
+}
+.icons i
+{
+  font-size: 20px;
+}
+.icons .face
+{
+  width: 35px;
+  height: 35px;
+  background-color: transparent;
+  text-align: center;
+  border-radius: 50%;
+}
+.icons .face i
+{
+  margin-top: 7px;
+}
+.icons .face:hover
+{
+  background-color: #3b5998;
+}
+
+.icons .twitter
+{
+  width: 35px;
+  height: 35px;
+  background-color: transparent;
+  text-align: center;
+  border-radius: 50%;
+}
+.icons .twitter i
+{
+  margin-top: 7px;
+}
+.icons .twitter:hover
+{
+  background-color: #50abf1;
+}
+.icons .youtube
+{
+  width: 35px;
+  height: 35px;
+  background-color: transparent;
+  text-align: center;
+  border-radius: 50%;
+}
+.icons .youtube i
+{
+  margin-top: 7px;
+}
+.icons .youtube:hover
+{
+  background-color: #f61c0d;
+}
+
+.icons .linked
+{
+  width: 35px;
+  height: 35px;
+  background-color: transparent;
+  text-align: center;
+  border-radius: 50%;
+}
+.icons .linked i
+{
+  margin-top: 7px;
+}
+.icons .linked:hover
+{
+  background-color: #0077b7;
+}
+@media screen and (max-width: 1100px) and (min-width: 767px) {
+  .client
+  {
+    padding: 20px;
+  }
+}
+@media screen and (max-width: 766px) and (min-width: 320px) {
+  .client
+  {
+    padding: 20px;
+  }
+}
+@media screen and (max-width: 1100px) and (min-width: 767px) {
+  .home img
+{
+    width: 30%;
+}
+}
+@media screen and (max-width: 766px) and (min-width: 320px) {
+  .home img
+  {
+      width: 30%;
+  }
+}
